@@ -54,7 +54,7 @@ def manage_turns(player):
     while not valid:
         #validate if the input is correct
         while square not in ["1", "2", "3", "4", "5", "6", "7", "8", "9"]:
-            square = input(f'{player}\'s turn to choose a square (1-9): ')
+            square = input(f'Enter a valid option, choose a square (1-9): ')
         
         square = int(square) - 1
 
